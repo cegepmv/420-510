@@ -5,6 +5,13 @@ weight = 2
 +++
 
 # et gestion des services TI 
+L’objectif de ce module est de **transformer une demande utilisateur (ou incident) en problématique clairement définie, reproductible et priorisée** : distinguer **incident vs requête**, recueillir **faits/symptômes**, **prioriser** (impact × urgence), **valider/autoriser** quand c’est une requête, puis **documenter** efficacement les informations clés (ticket & courriel) et l’on **prépare le plan d’intervention** à partir de la **documentation officielle** et de la **base de connaissances** avant la **résolution** ou l’**escalade**.
+
+**1) Gestion des incidents**  
+**2) Gestion des requêtes**  
+**3) Identification de la source du problème**
+
+
 <!-- 1 - Technique exploratoire avec la personne utilisatrice
 ●	Description du problème, du message d’erreur, captures d’écran
 ●	Questions pertinentes sur l’environnement de l’utilisateur pour préciser la problématique (système d’exploitation, état de mémoire, paramètre de pare-feu, validation des versions des logiciels, etc.)
@@ -16,7 +23,7 @@ weight = 2
 ●	Techniques de résolution (c.-à-d.: élimination méthodique des sources d’erreurs possibles)
 ●	Détermination judicieuse du niveau de priorité -->
 
-<!-- L’objectif de ce module est de **transformer une demande utilisateur en problématique clairement définie, reproductible et priorisée**, en recueillant les **symptômes** et le **contexte** puis en **reproduisant l’incident**. On y **formule une hypothèse de cause**, on **consigne** les informations clés dans un **courriel de soutien** et un **ticket**, et l’on **prépare le plan d’intervention** à partir de la **documentation officielle** et de la **base de connaissances**.
+<!-- L’objectif de ce module est de **transformer une demande utilisateur (ou incident) en problématique clairement définie, reproductible et priorisée**, en recueillant les **symptômes** et le **contexte** puis en **reproduisant l’incident**. On y **formule une hypothèse de cause**, on **consigne** les informations clés dans un **courriel de soutien** et un **ticket**, et l’on **prépare le plan d’intervention** à partir de la **documentation officielle** et de la **base de connaissances**.
 
 intrp diff entre req et incidents et analyser / comprendre l'utilsateur + transformer idée blabla, faire ticket et analyser prob  -->
 
@@ -27,3 +34,13 @@ intrp diff entre req et incidents et analyser / comprendre l'utilsateur + transf
        Question d'exam : 
        pertinent de prévoir une catégorie <strong>“À qualifier”</strong> pour les cas flous, avec <strong>reclassement obligatoire</strong> à la résolution.</li> lorsqu'on créer notre propre méthode de classement ? 
        Non, vaut mieux classer pr send au depart et reclasser à la fin pr l'avenir .. -->
+
+<!-- Exos : 
+- Faire une carte de diagnostic du prob / emettre hyp 
+- Effectuer une recherche officielle - identification des causes du prob + sources fiables (imprimante)
+- Processus pour un logiciel : - rédiger un courriel sur l'utilisation d'un logiciel (excel)
+
+Eval : prob choix courriel fonctionne ps, prob de connection, etc
+- Faire une carte de diag 
+- rédiger un courriel sur l'utilisation d'un logiciel / cmt resoudre le prob 
+recherche  -->
