@@ -8,7 +8,7 @@ La présente leçon vise à vous entraîner à **distinguer** divers **types d�
 
 Apprendre à les reconnaître rapidement est la base pour vous permettre d'**identifier la cause d’un problème** et démarrer une résolution efficace.
 
-### Le faits 
+### Les faits 
 <!-- La définition de faits n’est pas facile à établir.  Un fait se veut, par définition, une vérité.  À l’époque où nous vivons, les faits alternatifs (fake news) pullulent et la vérité est souvent une opinion personnelle face à une situation donnée.​
 Sans oublier les situations où une information est vraie à une certaine époque, puis démentie plus tard.  Il suffit de regarder diverses études dans le domaine alimentaire pour découvrir des aliments bons pour la santé, ou mauvais, selon les études et les époques.  Bref, notre objectif n’est pas de lancer un débat sur ce sujet.  Pour nous, un fait est: ​-->
 - Un **fait** est une information **vérifiée** (ou **directement observable**) et **traçable**.
@@ -41,6 +41,7 @@ La maison rouge n’est pas au centre donc pas en B: elle est près de la borne 
 La maison bleue est la plus éloignée de la borne fontaine donc en C. -->
 
 **Le passage**
+
 **3 technicien·ne·s** doivent traverser un tunnel étroit de nuit.
 Il n’y a qu’**une seule lampe** et **au plus deux personnes** peuvent être **dans le tunnel en même temps**.
 Quand deux personnes traversent ensemble, **la durée est celle de la plus lente**.
@@ -62,6 +63,7 @@ A + B traversent → +5 min ⇒ 16 min
 Total = 16 min → Objectif atteint (≤ 17 min). -->
 
 **Variante bonus (4 personnes)**
+
 En appliquant les mêmes règles. 
 
 Le temps individuels de traversée :
@@ -88,7 +90,7 @@ Stratégie B (deux rapides se passent la lampe)
 
 Conclusion : Oui, en 17 min avec la stratégie B. -->
 ---
-
+### Les déductions
 - Une **déduction** est une information **nouvelle** obtenue par **raisonnement logique** à partir de **faits** (elle **n’apparaît pas** telle quelle dans la liste des faits).
 
 **Une méthode rapide**

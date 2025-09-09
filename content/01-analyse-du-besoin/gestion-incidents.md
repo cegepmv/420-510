@@ -412,6 +412,7 @@ Exemples:​
 - Un équipement de lecture de radiographie a une priorité P3 (moyenne) à l’hôpital, lorsqu’il est en panne.  Cependant, le même équipement en panne, en salle d’opération avec une chirurgie en cours, devient une priorité P1 (très haute).​
 - Une panne du système hydraulique d’un avion a une priorité P3 (moyenne) lorsque l’avion est au sol, mais une priorité P1 (très haute) si la panne survient en vol.​
 ​
+
 En premier temps, on établit la priorité selon la matrice, et ensuite on évalue le contexte pour déterminer si la priorité doit être augmentée.​
 
 ### La documentation d'incidents 
@@ -435,3 +436,53 @@ Allez-y en phrases courtes, point par point.
 L’objectif est de laisser des traces qui permettront à un autre technicien, ou à vous-mêmes quelques mois plus tard:​
 de **comprendre l’incident​**, d’avoir les **informations recueillies**​ ainsi les grandes **étapes réalisées** pour la résolution.
 
+##### Exercice — transformer un « roman » en documentation claire
+
+À partir du **texte brouillon** ci-dessous (volontairement pénible à lire), **sortez l’information utile** et **rédigez des notes d’incident courtes** (une action + un résultat par item).  
+Objectif : laisser des traces exploitables par un·e autre technicien·ne.
+
+**Le texte brouillon (à nettoyer)**
+
+Vendredi, vers 8 h 42 (juste après la pause café du scrum meeting), Naomie (celle au 3e étage près de l’imprimante qui mange souvent des muffins aux bleuets, pas l’autre Naomie de la compta) m’a écrit sur Teams pour dire que GéoCarto Pro ne se lance pas. Elle dit qu’hier ça marchait « pas pire » mais aujourd’hui écran noir puis un popup avec quelque chose comme “Render init failed – code 0xC004 / invalid size” (ou 0xC0044 ? elle n’était pas sûre). Elle est sur Windows 11, portable HP EliteBook, branché parfois au dock USB-C (de mémoire, celui avec deux ports HDMI; je crois que le câble rouge est sur le port de gauche parce que l’autre est loose). Elle a redémarré, puis débranché/rebranché le deuxième écran, puis elle a fait une mise à jour de « je sais plus quoi » proposée par Windows (peut-être carte graphique ?) et ensuite c’était pire : le logiciel splash puis disparaît. Elle m’a envoyé une capture, mais par mail (je ne l’ai pas retrouvée parce que mon Outlook était en mode hors connexion après que le Wi-Fi du 3e a clignoté). On a essayé en désactivant l’antivirus 5 minutes (oui je sais), aucun changement. J’ai regardé dans `C:\Program Files\Geocarto\logs\client.log` et j’ai vu `DesiredScreen 1920x1080 not supported, fallback failed`. Il y a aussi un fichier `config.txt` dans `C:\Users\naomie\AppData\Roaming\Geocarto\`, avec une ligne `ScreenSize=` qui était vide (je crois). Quelqu’un a dit sur le forum que 1248x728 marche « souvent ». Ah et le DisplayLink du dock date de l’an dernier. J’ai testé vite fait en débranchant le dock** : miraculeusement, le logiciel s’ouvre, mais Naomie veut garder ses deux écrans pour travailler.
+
+**À faire**
+
+1. **Faits & symptômes (5–10 puces)** : extrayez uniquement les infos **vérifiables/utiles** (message exact si possible, contexte, chemins/logs).  
+2. **Actions tentées & résultats (3–8 puces)** : une **action** + un **résultat** (*succès/échec*).  
+3. **Prochaine étape** : proposez un **plan court** et testable (1–3 puces), incluant **rollback** si besoin.  
+4. **Notes d’incident (80–120 mots)** : rédigez vos notes **courtes**, prêtes à coller dans le ticket.
+
+<!-- 
+### Corrigé possible (à dévoiler après votre tentative)
+<details>
+  <summary>Afficher un exemple de réponse structurée</summary>
+
+**1) Faits & symptômes**
+- Appli **GéoCarto Pro** ne se lance pas (Windows 11, HP EliteBook).  
+- Popup au lancement : **“Render init failed – code 0xC004 / invalid size”**.  
+- Log `C:\Program Files\Geocarto\logs\client.log` : **`DesiredScreen 1920x1080 not supported, fallback failed`**.  
+- Fichier `C:\Users\naomie\AppData\Roaming\Geocarto\config.txt` : clé **`ScreenSize=` vide**.  
+- **Dock USB-C DisplayLink** présent ; **appli démarre sans le dock**.
+
+**2) Actions & résultats**
+- Redémarrage système → **échec** (symptôme identique).  
+- Débrancher/rebrancher 2e écran → **échec**.  
+- MAJ Windows non précisée → **pire** (appli splash puis quitte).  
+- **Désactivation antivirus 5 min** → **sans effet**.  
+- **Test sans dock** → **succès** (appli s’ouvre).  
+- Lecture du log client → **erreur de taille d’écran non supportée** confirmée.
+
+**3) Prochaine étape (plan)**
+- **Mettre à jour DisplayLink** vers dernière version **puis tester**.  
+- Dans `config.txt`, définir **`ScreenSize=1248x728`** (valeur tolérante) → **tester** lancement avec le dock.  
+- Si OK, **remettre** résolution souhaitée progressivement ; sinon **revenir** à 1248x728 (rollback).
+
+**4) Notes d’incident (≈100 mots)**
+GéoCarto Pro ne démarre pas (Win11, HP). Popup **“Render init failed – 0xC004 / invalid size”**.  
+Log : `DesiredScreen 1920x1080 not supported, fallback failed`. `config.txt` → `ScreenSize=` vide.  
+Sans dock USB-C (DisplayLink old), **l’appli démarre**. Antivirus off = sans effet.  
+Plan : **MAJ DisplayLink**, puis fixer `ScreenSize=1248x728` dans `…\Roaming\Geocarto\config.txt`.  
+Tester lancement avec dock + 2 écrans ; si OK, remonter résolution pas à pas ; sinon rollback 1248x728.  
+Pièces jointes à récupérer : capture d’erreur et `client.log`. **Sévérité S3** (impact 1 utilisateur, urgence moyenne).
+
+</details> -->
