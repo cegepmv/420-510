@@ -187,7 +187,6 @@ Chaque maison a une couleur différente (**rouge**, **bleue**, **verte**, **jaun
 - La personne qui travaille en TI a un chien.​
 - La grand-mère de Naomie habite la maison brune, à côté du pompier qui a un poisson rouge.​
 - Derrière la maison bleue il y a un jardin où la tortue aime se promener et manger des laitues.​
-- Notes safa Les diff façons de recherche cause d’un prob 
 
 --- 
 ### Le processus de dépannage (*troubleshooting*)
