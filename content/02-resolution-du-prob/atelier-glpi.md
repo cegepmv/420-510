@@ -5,7 +5,7 @@ weight = 1
 +++
 
 <!-- # pratiquer la gestion d'incidents  -->
-# Atelier GLPI
+# système de billetterie
 
 
 <style>
