@@ -221,3 +221,24 @@ La formation est résolument pratique : chaque séance se déroulera sous forme 
   </tbody>
 </table>
 </div> -->
+
+<!-- question exam 
+basée sur atelier 1 
+<div style="page-break-before: always; break-before: page;"></div>
+
+la personne te donne tous les specs de l'ordi 
+3 cas plus simple avc infos en trop 
+vrai utilisateurs ils te melent, jms faire confiance 
+**Le texte brouillon à nettoyer**
+
+
+### exo 
+télécharger un logiciel suite microsoft
+un utilisateur nrml n'a pas les mm accès que vs, 
+
+ds la rep 
+
+qd il veut lancer le telechargement il n'a pas les autorisations necessaire, il vs dit que ca. marche ps et cmt faire 
+
+- expliquer que les accès 
+- une fois app téléchargé montrer à l'utilisateur elle est ou et la faire fonctionner  -->

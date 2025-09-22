@@ -436,7 +436,7 @@ Allez-y en phrases courtes, point par point.
 L’objectif est de laisser des traces qui permettront à un autre technicien, ou à vous-mêmes quelques mois plus tard:​
 de **comprendre l’incident​**, d’avoir les **informations recueillies**​ ainsi les grandes **étapes réalisées** pour la résolution.
 
-##### Exercice — transformer un « roman » en documentation claire
+<!-- ##### Exercice — transformer un « roman » en documentation claire
 
 À partir du **texte brouillon** ci-dessous (volontairement pénible à lire), **sortez l’information utile** et **rédigez des notes d’incident courtes** (une action + un résultat par item).  
 Objectif : laisser des traces exploitables par un·e autre technicien·ne.
@@ -450,7 +450,7 @@ Vendredi, vers 8 h 42 (juste après la pause café du scrum meeting), Naomie (ce
 1. **Faits & symptômes (5–10 puces)** : extrayez uniquement les infos **vérifiables/utiles** (message exact si possible, contexte, chemins/logs).  
 2. **Actions tentées & résultats (3–8 puces)** : une **action** + un **résultat** (*succès/échec*).  
 3. **Prochaine étape** : proposez un **plan court** et testable (1–3 puces), incluant **rollback** si besoin.  
-4. **Notes d’incident (80–120 mots)** : rédigez vos notes **courtes**, prêtes à coller dans le ticket.
+4. **Notes d’incident (80–120 mots)** : rédigez vos notes **courtes**, prêtes à coller dans le ticket. -->
 
 <!-- 
 ### Corrigé possible (à dévoiler après votre tentative)

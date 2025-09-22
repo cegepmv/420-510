@@ -188,6 +188,13 @@ Chaque maison a une couleur différente (**rouge**, **bleue**, **verte**, **jaun
 - La grand-mère de Naomie habite la maison brune, à côté du pompier qui a un poisson rouge.​
 - Derrière la maison bleue il y a un jardin où la tortue aime se promener et manger des laitues.​
 
+<!-- Personne	Couleur de la maison	Animal	Note
+Javier	Rouge	Iguane	Habite au bout de la rue
+Antoine	Orange	Chien	Travaille en TI
+Hakim	Bleue	Tortue	—
+Clémence	Verte	Oiseau	Oiseau tacheté de la couleur de la maison (≠ rouge)
+Aïsha	Jaune	Chat	— -->
+
 --- 
 ### Le processus de dépannage (*troubleshooting*)
 Le but est de remonter à partir de l’**effet observé** (symptômes) jusqu'à la **cause racine**, puis appliquer une **solution vérifiable**.
