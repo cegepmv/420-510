@@ -188,15 +188,7 @@ Avant de proposer une solution, demandez-vous :
 
 ---
 
-### Étape 4 : affectation et résolution
-- Vous appliquez la solution : demandez à Julie de fermer et redémarrer l’application.  
-- Elle confirme que l’accès fonctionne à nouveau.  
-- Notez la résolution dans GLPI :  
-  *« Redémarrage de l’application HorairePro → accès rétabli »*.  
-- Changez le statut du ticket en **Résolu**.
-
-​### Étape 5 : Affectation ou escalade
-
+### Étape 4 :  affectation ou escalade
 À ce stade, plusieurs scénarios peuvent se présenter :  
 - Vous avez trouvé une **solution** ou un **contournement** et vous êtes en mesure de l’appliquer directement.  
 - Vous avez trouvé une solution ou un contournement, mais vous ne disposez pas des **droits d’accès** ou des **autorisations nécessaires** pour l’exécuter.  
