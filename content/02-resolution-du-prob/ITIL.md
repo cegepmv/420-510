@@ -75,3 +75,7 @@ La <strong>nouvelle version d’ITIL (v4)</strong> s’intègre avec les pratiqu
   <strong>COBIT</strong> va à un niveau plus haut : il touche à la <em>gouvernance</em>, 
   c’est-à-dire la manière dont les décisions TI soutiennent la stratégie d’affaires.
 </div> -->
+
+![ITIL overview](/content/02-resolution-du-prob/itil-overview.jpeg)
+
+<!-- itil 4 practices overview big picture all practice axelos service management itsm value insights service value chain system -->
