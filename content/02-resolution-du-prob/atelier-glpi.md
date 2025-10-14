@@ -240,6 +240,30 @@ Ce cas pratique vous permet de vous mettre dans la peau d’un agent du support 
 
 -----
 
+### 🧰 Outils de gestion ITIL
+Les outils basés sur les processus ITIL permettent d’<strong>intégrer et d’automatiser</strong> la gestion des services TI.  
+Ils guident les techniciens à travers les bonnes pratiques, sans qu’ils aient à tout connaître du cadre ITIL.
+
+**Avantages des outils ITIL**
+- Les processus sont <strong>intégrés et standardisés</strong>.
+- L’outil <strong>accompagne le technicien</strong> dans la résolution des tickets.
+- Les activités de soutien sont <strong>traçables et mesurables</strong>.
+
+
+**Exemples d’outils ITSM**
+<table>
+  <tr><th>Outil</th><th>Caractéristiques</th></tr>
+  <tr><td><strong>GLPI</strong></td><td>Open source, gestion d’incidents, requêtes, inventaire matériel et utilisateurs.</td></tr>
+  <tr><td><strong>ServiceNow</strong></td><td>Solution complète de gestion de services en entreprise.</td></tr>
+  <tr><td><strong>Octopus ITSM</strong></td><td>Outil québécois bien adapté aux organisations publiques.</td></tr>
+  <tr><td><strong>BMC Track-IT / ConnectWise Manage</strong></td><td>Solutions commerciales complètes pour le support technique.</td></tr>
+  <tr><td><strong>Jira Service Desk</strong></td><td>Intégré à Jira, idéal pour le soutien logiciel.</td></tr>
+</table>
+
+> Nous utiliserons <strong>GLPI</strong>, dans ce cours, un outil gratuit et open source basé sur les principes ITIL.
+
+
+--- 
 ## Exercice – Gestion complète d’un ticket 
 
 À travers cet exercice, vous allez mettre en pratique la création, l’assignation et la résolution d’un ticket à l’aide de GLPI.
