@@ -70,7 +70,7 @@ CP on volet de sécurité  -->
 ---
 ## Vocabulaire clé
 - **Incident** = panne à rétablir · **Requête** = demande de service (accès, installation, matériel).  
-- **Sévérité** (impact/urgence) ≠ **Priorité** (ordre de traitement fixé par la DTI).  
+- **Sévérité** (gravité technique) ≠ **Priorité** (ordre de traitement fixé par la DTI).  
 - **Workaround** (contournement) ≠ **Fix** (correction de la cause).
   
 
